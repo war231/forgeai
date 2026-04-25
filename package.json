@@ -1,0 +1,113 @@
+{
+  "name": "novel-forge-kit",
+  "displayName": "ForgeAI 长篇小说创作套件",
+  "description": "融合武行流程+Webnovel Writer智能审查的长篇小说创作系统。工业化流程引导 + 六维并行审查 + 去AI味宪法 + 追读力分析。",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "workspaceContains:*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "forgeAI.init",
+        "title": "ForgeAI: 初始化项目"
+      },
+      {
+        "command": "forgeAI.initKit",
+        "title": "ForgeAI: 初始化长篇小说创作套件（已弃用）"
+      },
+      {
+        "command": "forgeAI.review",
+        "title": "ForgeAI: 审查当前章节"
+      },
+      {
+        "command": "forgeAI.sixDimReview",
+        "title": "ForgeAI: 六维审查当前章节（已弃用）"
+      },
+      {
+        "command": "forgeAI.score",
+        "title": "ForgeAI: AI味评分"
+      },
+      {
+        "command": "forgeAI.scoreText",
+        "title": "ForgeAI: AI味评分（已弃用）"
+      },
+      {
+        "command": "forgeAI.context",
+        "title": "ForgeAI: 提取创作上下文"
+      },
+      {
+        "command": "forgeAI.extractContext",
+        "title": "ForgeAI: 提取创作上下文（已弃用）"
+      },
+      {
+        "command": "forgeAI.search",
+        "title": "ForgeAI: RAG 搜索"
+      },
+      {
+        "command": "forgeAI.status",
+        "title": "ForgeAI: 项目状态"
+      },
+      {
+        "command": "forgeAI.index",
+        "title": "ForgeAI: 索引当前章节"
+      },
+      {
+        "command": "forgeAI.indexChapter",
+        "title": "ForgeAI: 索引当前章节（已弃用）"
+      },
+      {
+        "command": "forgeAI.afterWrite",
+        "title": "ForgeAI: 写作后自动流水线"
+      },
+      {
+        "command": "forgeAI.postWrite",
+        "title": "ForgeAI: 写作后自动流水线（已弃用）"
+      },
+      {
+        "command": "forgeAI.beforeWrite",
+        "title": "ForgeAI: 写前检查"
+      },
+      {
+        "command": "forgeAI.preCheck",
+        "title": "ForgeAI: 写前检查（已弃用）"
+      },
+      {
+        "command": "forgeAI.smartContext",
+        "title": "ForgeAI: 智能上下文组装"
+      }
+    ],
+    "configuration": {
+      "title": "ForgeAI",
+      "properties": {
+        "forgeAI.pythonPath": {
+          "type": "string",
+          "default": "python",
+          "description": "Python 可执行文件路径（用于 RAG/索引/评分后端）"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "^16.11.7",
+    "typescript": "^5.1.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

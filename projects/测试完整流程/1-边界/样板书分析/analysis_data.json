@@ -1,0 +1,202 @@
+{
+  "structure": {
+    "chapter_count": 10,
+    "total_words": 34098,
+    "avg_word_count": 3410,
+    "word_count_std": 264,
+    "rhythm_ratio": {},
+    "chapters": [
+      {
+        "index": 1,
+        "title": "第1章 泰山亡奴",
+        "word_count": 3675
+      },
+      {
+        "index": 2,
+        "title": "第2章 高风亮节",
+        "word_count": 3639
+      },
+      {
+        "index": 3,
+        "title": "第3章 好消息",
+        "word_count": 3166
+      },
+      {
+        "index": 4,
+        "title": "第4章 自有对策",
+        "word_count": 3395
+      },
+      {
+        "index": 5,
+        "title": "第5章 雅骂(感谢历史区什么时候崛起的盟主)",
+        "word_count": 3322
+      },
+      {
+        "index": 6,
+        "title": "第6章 所托非人",
+        "word_count": 2787
+      },
+      {
+        "index": 7,
+        "title": "第7章 再无宁日",
+        "word_count": 3358
+      },
+      {
+        "index": 8,
+        "title": "第8章 大手笔",
+        "word_count": 3532
+      },
+      {
+        "index": 9,
+        "title": "第9章 族谱之中，无有汝名",
+        "word_count": 3511
+      },
+      {
+        "index": 10,
+        "title": "第10章 恩德",
+        "word_count": 3713
+      }
+    ]
+  },
+  "trophy": {
+    "total_count": 19,
+    "density": 1.9,
+    "distribution": {
+      "装逼打脸": 2,
+      "扮猪吃虎": 9,
+      "身份掉马": 4,
+      "迪化误解": 2,
+      "打脸权威": 1,
+      "越级反杀": 1
+    },
+    "points": [
+      {
+        "chapter_index": 2,
+        "trophy_type": "装逼打脸",
+        "context": "，天下愈发崩坏，我却一无所成！”\n\n庾冰目瞪口呆，不可置信。 而那老者却眯起双眼，看向羊",
+        "position": 2674
+      },
+      {
+        "chapter_index": 2,
+        "trophy_type": "扮猪吃虎",
+        "context": "溢着笑容。 前世自己孤家寡人，孑然一身，没想到，来到了这里，却遇到一个能为自己而死的亲",
+        "position": 862
+      },
+      {
+        "chapter_index": 2,
+        "trophy_type": "扮猪吃虎",
+        "context": "乡侯庾冰季坚’字样。 羊慎之面不改色，“原来是君侯有请，何时之宴？” “我家主人性急",
+        "position": 1318
+      },
+      {
+        "chapter_index": 2,
+        "trophy_type": "扮猪吃虎",
+        "context": "....故留在身边。”\n\n“难怪....原来如此。” “妙哉，义哉！” 庾冰对左右小",
+        "position": 3439
+      },
+      {
+        "chapter_index": 3,
+        "trophy_type": "身份掉马",
+        "context": "了声音，“晋王入主，需四方百姓拥戴，无论身份，不谈品级，天下之事，当天下人定之...",
+        "position": 675
+      },
+      {
+        "chapter_index": 3,
+        "trophy_type": "迪化误解",
+        "context": "贵，便与大兄同死，我绝无悔恨！” “大兄以为呢？” 杨大惊愕的看着弟弟，过了片刻，他",
+        "position": 2816
+      },
+      {
+        "chapter_index": 3,
+        "trophy_type": "打脸权威",
+        "context": "可能自贱到鞭挞自己的地步？” 听到邓攸的质疑，庾冰不在意的说道：“在我见过的诸子弟里",
+        "position": 1389
+      },
+      {
+        "chapter_index": 4,
+        "trophy_type": "装逼打脸",
+        "context": "步，看向了黑脸壮汉。 “进来了？” 壮汉冷笑起来，“多亏君子的福，进来了。” “怎么",
+        "position": 2251
+      },
+      {
+        "chapter_index": 4,
+        "trophy_type": "扮猪吃虎",
+        "context": " 羊慎之的眼神扫过这些人，眼眸里也多了些隐藏起来的悲伤。 不知走了多久。 有抱着孩子",
+        "position": 2155
+      },
+      {
+        "chapter_index": 4,
+        "trophy_type": "扮猪吃虎",
+        "context": "有菜色，岂敢见尊长？” 庾冰恍然大悟，“原来是担心这个。” “子谨，恕我直言，羊公向",
+        "position": 286
+      },
+      {
+        "chapter_index": 6,
+        "trophy_type": "扮猪吃虎",
+        "context": "第三次与他相见了，也是有缘，这壮汉大概也没想到还能遇到羊慎之，脸憋得更黑了，“荥阳毛宝",
+        "position": 430
+      },
+      {
+        "chapter_index": 6,
+        "trophy_type": "身份掉马",
+        "context": "他们客气，事实上还是在暗指庾冰等人侨居的身份。 ....... 次日，庾冰终于舍得从",
+        "position": 1490
+      },
+      {
+        "chapter_index": 7,
+        "trophy_type": "扮猪吃虎",
+        "context": "神都落在羊慎之的身上。 羊慎之神色恍惚，竟然不答。 毛宝脸色通红，心里怒骂：这个时候",
+        "position": 616
+      },
+      {
+        "chapter_index": 7,
+        "trophy_type": "扮猪吃虎",
+        "context": "之对他却没有争辩的意图了，他行礼说道：“原来如此，我说华公为何高坐上位，一言不发，原",
+        "position": 3272
+      },
+      {
+        "chapter_index": 7,
+        "trophy_type": "扮猪吃虎",
+        "context": "来如此，我说华公为何高坐上位，一言不发，原来是早已做好准备，即如此，我替诸南逃之人，",
+        "position": 3293
+      },
+      {
+        "chapter_index": 8,
+        "trophy_type": "越级反杀",
+        "context": "群众’的力量，万人上书劝进，在稍稍彰显下实力的同时，为劝进者请赏，进一步扩大己方势力",
+        "position": 3093
+      },
+      {
+        "chapter_index": 8,
+        "trophy_type": "身份掉马",
+        "context": "达。\n\n南北通吃，名声极大。 抛开名士的身份，他依旧很显赫。 他很早就来了南边，晋王",
+        "position": 705
+      },
+      {
+        "chapter_index": 8,
+        "trophy_type": "身份掉马",
+        "context": "之口向伯父表明志向和能力，将泰山羊慎之的身份坐实，去赌一把！”\n\n“要么被伯父认可，",
+        "position": 1933
+      },
+      {
+        "chapter_index": 8,
+        "trophy_type": "迪化误解",
+        "context": "非贪财之人，我也绝不是要羞辱子谨，只是我以为，子谨远道而来，无论是拜见尊长，还是购置",
+        "position": 2436
+      }
+    ]
+  },
+  "style": {
+    "avg_sentence_length": 26.6,
+    "dialogue_ratio": 0.0,
+    "opening_modes": {},
+    "ending_modes": {
+      "高潮截断": 2,
+      "过渡收束": 2
+    }
+  },
+  "metadata": {
+    "analyzed_at": "2026-04-21T15:01:16.943388",
+    "version": "1.0"
+  }
+}

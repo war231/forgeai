@@ -1,0 +1,107 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forgeai"
+version = "1.1.0"
+description = "AI-powered novel writing system with multi-agent collaboration"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "ForgeAI Team", email = "forgeai@example.com"}
+]
+maintainers = [
+    {name = "ForgeAI Team", email = "forgeai@example.com"}
+]
+keywords = [
+    "ai",
+    "novel-writing",
+    "creative-writing",
+    "multi-agent",
+    "rag",
+    "llm",
+    "gpt",
+    "claude"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Artistic Software",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "openai>=1.0.0",
+    "anthropic>=0.18.0",
+    "tiktoken>=0.5.0",
+    "chromadb>=0.4.0",
+    "sentence-transformers>=2.2.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+    "click>=8.0.0",
+    "jieba>=0.42.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "requests>=2.31.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+]
+docs = [
+    "sphinx>=6.0.0",
+    "sphinx-rtd-theme>=1.2.0",
+    "myst-parser>=1.0.0",
+]
+
+[project.scripts]
+forgeai = "forgeai:main"
+
+[project.urls]
+Homepage = "https://github.com/forgeai/forgeai"
+Documentation = "https://forgeai.readthedocs.io"
+Repository = "https://github.com/forgeai/forgeai.git"
+Issues = "https://github.com/forgeai/forgeai/issues"
+Changelog = "https://github.com/forgeai/forgeai/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+package-dir = {"" = "system/scripts"}
+
+[tool.setuptools.packages.find]
+where = ["system/scripts"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+include = '\.pyi?$'
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false

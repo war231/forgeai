@@ -1,0 +1,22 @@
+# ForgeAI Python Dependencies
+# Python >= 3.10 required
+
+# 核心依赖
+aiohttp>=3.8.0          # 异步 HTTP 客户端（Embedding API）
+filelock>=3.0.0         # 文件锁（状态文件并发控制）
+pydantic>=2.0.0         # Schema 校验
+
+# 向量检索（可选，用于 RAG）
+numpy>=1.24.0           # 向量运算
+sqlite-vec>=0.1.0       # SQLite 向量扩展（可选，降级时自动回退 BM25）
+
+# 中文分词（BM25 检索）
+jieba>=0.42.1           # 中文分词
+
+# 去AI味评分（可选）
+# openai>=1.0.0         # 调用 LLM 做 AI味评分（可用任何兼容 API）
+
+# 开发/测试
+pytest>=7.0.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.23.0

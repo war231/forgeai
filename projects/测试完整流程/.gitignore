@@ -1,0 +1,5 @@
+# ForgeAI
+.forgeai/*.db
+.forgeai/*.lock
+.forgeai/backups/
+*.tmp
